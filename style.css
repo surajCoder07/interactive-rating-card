@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+}
+h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: hsl(217, 12%, 63%);
+}
+button{
+    margin: 1rem 0;
+}
+.big-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    background:linear-gradient( to top,  hsl(216, 12%, 8%),hsl(213, 19%, 18%));
+    width: 400px;
+    height: 300px;
+    padding: 2rem;
+    border-radius: 2.5rem;
+    max-width:25rem ;
+    margin: 0 2rem;
+    box-shadow: 2px 2px 5px   hsl(213, 19%, 18%);
+    margin-bottom: 4rem;
+ 
+}
+.rateForm img{
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: hsl(213deg 28% 20%);
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin: 1rem 0;
+
+}
+.container li .btn{
+    /* border: 2px solid black; */
+    background-color:  hsl(213, 19%, 18%);
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 100%;
+    color: white;
+    transition: all ease-in 0.2s;
+}
+.container li .btn:hover{
+background-color: hsl(25, 97%, 53%);
+}
+.container li .btn:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+.submit{
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 2rem;
+    color: white;
+    border: none;
+    background-color:  hsl(25, 97%, 53%);
+
+}
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+.hidden{
+    display: none;
+}
+.container-2{
+    text-align: center;
+}
+.container-2 img{
+    width: 50%;
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
+}
+.thank-you{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    filter: blur(100%);
+    border-radius: 4rem;
+    padding: 0.5rem;
+    margin: 1rem 3rem;
+}
+@media screen and (max-width:375px) {
+    html{
+        font-size: 55%;
+    }
+}
